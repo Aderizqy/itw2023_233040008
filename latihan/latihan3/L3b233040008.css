@@ -1,0 +1,24 @@
+body {
+    background-color: aqua;
+    font-family: geogia;
+}
+h1 {
+    font-family: comic sans ms;    
+    font-size: 60px;
+    text-align: center;
+    color: darkblue;
+}
+h4 {
+    text-align: right;
+    font-style: italic;
+}
+.a1 {
+    color: white;
+}
+.p1 {
+    text-align: center;
+    color: orange;
+}
+.p2 {
+    text-align: center;
+}
