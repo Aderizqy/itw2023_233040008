@@ -32,8 +32,11 @@ body {
 	line-height: 1;
 }
 ol, ul {
+    padding: 0 0 0 24px;
 	list-style: none;
 }
+
+
 blockquote, q {
 	quotes: none;
 }
@@ -65,6 +68,11 @@ body {
 .header .judul {
     font-size: 40px;
     font-weight: bold;
+    text-align: center;
+}
+
+.header ul {
+    text-align: center;
 }
 
 .header ul li {
@@ -76,7 +84,9 @@ body {
 .header a {
     text-decoration: none;
     color: salmon;
-    padding: 3px;
+    padding: 3px 8px;
+    border-radius: 50PX;
+    font-weight: bold;
 }
 
 .header a:hover {
@@ -84,13 +94,26 @@ body {
     color: white;
 }
 
-.hero {
-    height: 280px;
-    background-image: url(img/hero.jpg);
+.hero1 {
+    height: 400px;
+    background-image: url(img/programmer.jpeg);
     background-size: cover;
-    background-position: 0 -200px;
-    border-top: 5px solid lightcoral;
+	background-repeat: no-repeat;
+    border-bottom: 5px solid salmon;
+    border-top: 5px solid salmon;
+    border-left: 5px solid salmon;
+    border-right: 5px solid salmon;
+}
+
+.hero2 {
+    height: 400px;
+    background-image: url(img/coding.jpg);
+    background-size: cover;
+	background-repeat: no-repeat;
     border-bottom: 5px solid lightblue;
+    border-top: 5px solid lightblue;
+    border-left: 5px solid lightblue;
+    border-right: 5px solid lightblue;
 }
 
 .content {
@@ -100,6 +123,7 @@ body {
 .content h2 {
     font-size: 28px;
     font-weight: bold;
+    color: rgb(109, 4, 109);
 }
 
 .content .penulis {
@@ -111,10 +135,40 @@ body {
     color: salmon;
     text-decoration: none;
 }
+.content h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.content h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ol li {
+    padding: 5px 0;
+}
+
+li {
+    display: list-item;
+    font-size: 14px;
+    text-align: -webkit-match-parent;
+    list-style-type: decimal;
+}
+
+.gaji li {
+    list-style-type: circle;
+}
+
 
 .content p {
+    margin: 5px;
     margin-bottom: 20px;
     font-size: 14px;
+}
+
+.content p b {
+    font-weight: bold;
 }
 
 .fotter {
