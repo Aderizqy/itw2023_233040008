@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Man Utd</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <div class="container">
+
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">Man Utd</h2>
+                <p class="sub-heading">Official Store</p>
+            </div>
+            <div class="features feature-1">
+                <h4 class="price">IDR 250k</h4>
+                <p class="item">Jacket</p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="price">IDR 150k</h4>
+                <p class="item">T-Shirt Home</p>
+            </div>
+            <div class="features feature-3">
+                <h4 class="price">IDR 150k</h4>
+                <p class="item">T-Shirt Away</p>
+            </div>
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+                <h1>Man Utd</h1>
+            </div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <section class="services">
+            <div class="service">
+                <div class="icon"><i class='bx bx-football'></i></div>
+                <h3>Man Utd</h3>
+                <p>Manchester United Football Club adalah sebuah klub sepak bola profesional yang berbasis di Old Trafford, Manchester Raya, yang bermain di Liga Utama Inggris dengan gelar Liga Utama Inggris terbanyak sepanjang masa. </p>
+            </div>
+            <div class="service">
+                <div class="icon"><i class='bx bx-male-female'></i></div>
+                <h3>Pendukung</h3>
+                <p>Manchester United terkenal sebagai klub sepak bola paling populer di dunia, dengan salah satu yang tertinggi rata-rata kehadiran kandang di Eropa. Klub menyatakan bahwa basis penggemar di seluruh dunia termasuk lebih dari 200 cabang yang diakui secara resmi dari Manchester United Suporter Club (MUSC), di setidaknya 24 negara.</p>
+            </div>
+            <div class="service">
+                <div class="icon"><i class='bx bxs-home'></i></div>
+                <h3>Stadion</h3>
+                <p>Old Trafford adalah sebuah stadion sepak bola yang berlokasi di Old Trafford, Greater Manchester, Inggris, dan merupakan markas klub Manchester United. Dengan kapasitas sekitar 76.000 kursi, stadion ini merupakan stadion terbesar ketiga dan stadion sepak bola terbesar kedua di Inggris setelah Stadion Wembley, serta stadion kesembilan terbesar di Eropa..</p>
+            </div>
+            <div class="service">
+                <div class="icon"><i class='bx bxs-flag-alt' ></i></div>
+                <h3>Sejarah</h3>
+                <p>Tim pertama kali dibentuk dengan nama Newton Heath Lancashire and Yorkshire Railway F.C. pada 1878 sebagai tim karya Lancashire dan Yorkshire, stasiun kereta api di Newton Heath. Kaus tim berwarna hijau - emas. Mereka bermain di sebuah lapangan kecil di North Road, dekat stasiun kereta api Piccadilly Manchester selama lima belas tahun, sebelum pindah ke Bank Street di kota dekat Clayton pada 1893.</p>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="https://source.unsplash.com/random/201x201" alt="">
+            <img src="https://source.unsplash.com/random/202x202" alt="">
+            <img src="https://source.unsplash.com/random/203x203" alt="">
+            <img src="https://source.unsplash.com/random/204x204" alt="">
+            <img src="https://source.unsplash.com/random/205x205" alt="">
+            <img src="https://source.unsplash.com/random/206x206" alt="">
+            <img src="https://source.unsplash.com/random/207x207" alt="">
+            <img src="https://source.unsplash.com/random/208x208" alt="">
+            <img src="https://source.unsplash.com/random/209x209" alt="">
+            <img src="https://source.unsplash.com/random/210x210" alt="">
+            <img src="https://source.unsplash.com/random/211x211" alt="">
+            <img src="https://source.unsplash.com/random/212x212" alt="">
+        </section>
+
+    </div>
+    
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function (){
+        nav.classList.toggle('slide');
+        });
+    </script>
+    
+</body>
+</html>
